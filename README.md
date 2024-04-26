@@ -98,4 +98,5 @@ The RandomForestClassifier model achieved an overall accuracy of 84%, demonstrat
 
 
 
-[![Launch App](https://img.shields.io/badge/Launch-App-brightgreen?style=for-the-badge)](https://share.streamlit.io/xtian-obi/Supervised_Machine_Learning_Algorithm/main/lab phase Supervised Machine learnin Algorith.py)
+[![Launch App](https://img.shields.io/badge/Launch-App-brightgreen?style=for-the-badge)](https://share.streamlit.io/xtian-obi/Supervised_Machine_Learning_Algorithm/main/llab_phase_Supervised_Machine_learnin_Algorith.py)
+
