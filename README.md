@@ -1,5 +1,5 @@
 # Supervised_Machine_Learning_Algorithm
-INTRODUCTION
+## INTRODUCTION
  Most of the issues  with the lending industry is not about the availability of  funds to give out its more about the  willingness of people to return or repay the loan given to them at the appointed time and with the agreed interest rate, this has resulted in a lot of issue in the lending industry making it hard for people who have money to give, not interested in lending.
 The aim of this project is to develop a  machine learning model that will learn from previous data on the behaviour of previous borrowers who have been given loans and how they reacted after, this project aim to help lender predict if an borrower requesting for loan will pay back or not drawing conclusion from the borrower’s details and comparing it with previous behaviour of people who posses similar details and characteristics 
 
@@ -23,16 +23,16 @@ Here are what the columns represent:
 
 This project aim to help the lending industry reduce loss to borrowers who will not payback by almost accurately predicting their behaviours and decide wether or not a prospecting borrower should be awarded the loan making the lending industry free flowing and reducing loss.
 
-DATA PREPROCESSING
+## DATA PREPROCESSING
 For the data preprocessing the data was relatively clean having no missing values, the categorical features were in the ‘purpose’ columns since there was not a lot of unique values in the column encoded the categorical features by putting them in a dictionary with the categorical features as the key and  corresponding integral as the values
 
-EXPLORATORY DATA ANALYSIS (EDA)
+## EXPLORATORY DATA ANALYSIS (EDA)
 With the help of matplotlib and seaborn data visualisation and exploration was done:
 With matplotlib histogram of the ‘fico’ column and also for the two possible credit policy was obtain given insight of the behaviour of borrowers with different ‘fico’ points, same was done for the ‘fico’ column  with those that paid and those that did not pay.
 With Seaborn a count plot of the ‘purpose’ column was done between those that paid and those that did not pay for different reasons of borrowing.
 With seaborn also a joint plot was obtained for the ‘fico’ column against the ‘int.rate’, and lastly with seaborn a lmplot was done for the’fico’ column against the ‘int.rate’ coloured by credit policy for those that paid back and those that did not pay back.
 
-MODELLIING APROACH 
+## MODELLIING APROACH 
 A couple of models were considered for this task like the DecisionTreeClassifier and th RandomForestClassifier this models were selected because the model is to perform a classification task choosing between wether an event occurred or not, Radom forest classifier and Decision Tree Classifier are  two models that have shown great accuracy in this type of classification and it can be fine tuned to improve the accuracy
 For the Evaluation metric the classification report and the confusion matrix was chosen to evaluate the model’s performance
 Confusion Matrix: It is a table that is often used to evaluate the performance of a classification model. It compares the actual labels of a dataset to the labels predicted by the model.
@@ -50,7 +50,7 @@ Typically, a classification report includes the following metrics for each class
 Additionally, the classification report often includes an overall accuracy score for the entire model.
 By examining the classification report, we can gain insights into how well the model performs for each class and identify any imbalances or areas for improvement in the model's predictions.
 
-MODEL DEVELOPMENT
+## MODEL DEVELOPMENT
 The train test split was imported  to split the data into training set and testing set  before fitting the training split of the data into the algorithm 
 For DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
                                              max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
@@ -65,7 +65,7 @@ For RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
                                                  warm_start=False)
 The following hyper-parameter tuning  was used for the RandomForestClassifier
 
-MODEL EVALUATION
+## MODEL EVALUATION
 For the DecisionTreeClassifier the classification report  brought out the following report  
         precision    recall  f1-score   support
 
@@ -93,5 +93,5 @@ And for confusion matrix
 
 For higher accuracy RandomForestClassifie was chosen for the model since it brought forward a greater accuracy
 
-CONCLUSION
+## CONCLUSION
 The RandomForestClassifier model achieved an overall accuracy of 84%, demonstrating its effectiveness in classifying the majority class. However, its performance varied across classes, with higher precision and recall for class 0(those that have not fully paid) compared to class 1(those that have paid).
