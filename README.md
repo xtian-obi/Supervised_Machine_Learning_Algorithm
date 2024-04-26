@@ -1,4 +1,4 @@
-# Supervised_Machine_Learning_Algorithm
+# Supervised Machine Learning Algorithm
 ## INTRODUCTION
  Most of the issues  with the lending industry is not about the availability of  funds to give out its more about the  willingness of people to return or repay the loan given to them at the appointed time and with the agreed interest rate, this has resulted in a lot of issue in the lending industry making it hard for people who have money to give, not interested in lending.
 The aim of this project is to develop a  machine learning model that will learn from previous data on the behaviour of previous borrowers who have been given loans and how they reacted after, this project aim to help lender predict if an borrower requesting for loan will pay back or not drawing conclusion from the borrower’s details and comparing it with previous behaviour of people who posses similar details and characteristics 
