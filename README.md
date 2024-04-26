@@ -90,9 +90,12 @@ weighted avg      0.76     0.84    0.77      3161
 And for confusion matrix
 [[2634   16]
  [ 502    9]]
-[![Launch App](https://img.shields.io/badge/Launch-App-brightgreen?style=for-the-badge)](https://share.streamlit.io/xtian-obi/Supervised_Machine_Learning_Algorithm/main/lab phase Supervised Machine learnin Algorith.py)
 
 For higher accuracy RandomForestClassifie was chosen for the model since it brought forward a greater accuracy
 
 ## CONCLUSION
 The RandomForestClassifier model achieved an overall accuracy of 84%, demonstrating its effectiveness in classifying the majority class. However, its performance varied across classes, with higher precision and recall for class 0(those that have not fully paid) compared to class 1(those that have paid).
+
+
+
+[![Launch App](https://img.shields.io/badge/Launch-App-brightgreen?style=for-the-badge)](https://share.streamlit.io/xtian-obi/Supervised_Machine_Learning_Algorithm/main/lab phase Supervised Machine learnin Algorith.py)
